@@ -1,3 +1,5 @@
+package nl.Pokemon;
+
 public class Pokemon {
     String name;
     int level;
@@ -9,12 +11,12 @@ public class Pokemon {
 
     }
 
-    protected void eat () {
+    public void eat () {
         System.out.println(name + " is eating.");
 
     }
 
-    protected void sleeping () {
+    public void sleeping () {
         System.out.println(name + " is sleeping.");
     }
 

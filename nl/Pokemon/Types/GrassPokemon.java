@@ -1,10 +1,14 @@
+package nl.Pokemon.Types;
+
+import nl.Pokemon.Pokemon;
+
 public class GrassPokemon extends Pokemon {
 
-    protected GrassPokemon(String name, int level) {
+    public GrassPokemon(String name, int level) {
         super(name, level);
     }
 
-    protected void leafStorm() {
+    public void leafStorm() {
         System.out.println(getName() + "LeafStorm attack !!!");
     }
 }

@@ -1,11 +1,15 @@
+package nl.Pokemon.Types;
+
+import nl.Pokemon.Pokemon;
+
 public class WaterPokemon extends Pokemon {
-    protected WaterPokemon(String name, int level) {
+    public WaterPokemon(String name, int level) {
         super(name, level);
 
 
     }
 
-   protected void serf() {
+   public void serf() {
        System.out.println(getName() + " Serfing attack !!!");
     }
 }

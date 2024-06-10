@@ -1,8 +1,12 @@
+package nl.Pokemon.Types;
+
+import nl.Pokemon.Pokemon;
+
 public class FirePokemon extends Pokemon {
-    protected FirePokemon(String name, int level) {
+    public FirePokemon(String name, int level) {
         super(name, level);
     }
 
- protected void inferno() {
+ public void inferno() {
      System.out.println(getName() + "Inferno attack !!!");}
 }

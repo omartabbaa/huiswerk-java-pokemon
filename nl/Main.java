@@ -1,3 +1,10 @@
+package nl;
+
+import nl.Pokemon.Types.ElectricPokemon;
+import nl.Pokemon.Types.FirePokemon;
+import nl.Pokemon.Types.GrassPokemon;
+import nl.Pokemon.Types.WaterPokemon;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
